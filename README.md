@@ -78,6 +78,8 @@ rails g controller Posts index new
 root 'posts#index'
 ```
 
+Nota: Se recomienda cambiar todos los get a posts controller por "resources :posts"
+
 9. Ir al controlador pages y agregar las lineas que se encuntren en el archivo pages_controller.rb de este proyecto.
 
 10. ir al modelo Post y agregar las lineas que se encuntren en el archivo post.rb de este proyecto.
