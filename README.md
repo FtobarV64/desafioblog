@@ -105,9 +105,17 @@ heroku create
 ```
 
 17. hacer un push a heroku.
+
 ```bash
 git push heroku main
 ```
+
+18. Hacer una migracion con heroku
+
+```bash
+heroku run rails db:migrate
+```
+
 ## Running the tests ⚙️
 
 Description of how to run the tests:
